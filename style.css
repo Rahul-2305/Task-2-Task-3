@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(23, 23, 65);
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+}
+.login_element{
+background-color: black;
+padding: 20px;
+margin: auto;
+text-align: center;
+border-radius: 10px;
+
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#company-logo{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputer{
+    display: flex;
+    padding: 0;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.remember{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+#signer{
+    padding: 10px;
+    width: auto;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#signer:hover{
+background-color: rgb(199, 0, 0);
+border: 1px solid rgb(199, 0, 0);
+cursor: pointer;
+color: rgb(221, 221, 221);
+}
+#forgetme{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+
+}

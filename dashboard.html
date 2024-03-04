@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="Title">Company Metrics</div>
+        <div class="metrics-container">
+            <div class="card-item">
+                <div class="top-text">$64,492</div>
+                <div class="bottom-text">Total Revenue</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">$608</div>
+                <div class="bottom-text">Total Jobs Avg</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">106</div>
+                <div class="bottom-text">Tickets Created</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">66</div>
+                <div class="bottom-text">Tickets Scheduled</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">$19,304,52</div>
+                <div class="bottom-text">Outstanding Amount</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">0</div>
+                <div class="bottom-text">Membership Sold</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">8</div>
+                <div class="bottom-text">Jobs Completed</div>
+            </div>
+            <div class="card-item">
+                <div class="top-text">2</div>
+                <div class="bottom-text">Total Canceled</div>
+            </div>
+        </div>
+        <div id="Title">Revenue By Job Location</div>
+        <div class="dropdown-container">
+            <label for="select-chart">Select Chart Type:</label>
+            <select id="select-chart" onchange="updateChart()">
+                <option value="bar">Bar Chart</option>
+                <option value="line">Line Chart</option>
+            </select>
+        </div>
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="script2.js" defer></script>
+</body>
+</html>

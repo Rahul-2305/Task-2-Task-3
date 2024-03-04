@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+       <div id="company-logo">
+        <H1>ZENTRADES</H1>
+       </div>
+        <div class="login_element">
+            <form onsubmit="return validateForm()">
+            <div class="inputer">
+                <input type="email" id="username" placeholder="E-mail address" >
+                <input type="password"  id="password" placeholder="Password">
+            </div>
+            <div class="bottom">
+                <div class="remember">
+                    Remember Me
+                    <input type="checkbox">
+                </div>
+                <button id="signer" type="submit">Sign In</button>
+            </div>
+            <a href="mailto:support@zentrades.pro?subject=Password Reset Request" id="forgetme">Forget Your Password</a>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
